@@ -1,0 +1,22 @@
+htop
+vim
+curl
+wget
+net-tools
+lsof
+openjdk-8-jdk
+
+#virtuoso dependencies
+autoconf 
+automake 
+libtool 
+flex 
+bison 
+gperf 
+gawk 
+m4 
+make 
+odbcinst 
+libxml2-dev 
+libssl-dev 
+libreadline-dev

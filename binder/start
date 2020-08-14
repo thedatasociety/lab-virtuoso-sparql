@@ -1,0 +1,18 @@
+#!/bin/bash
+
+mkdir logs
+
+
+chmod +x ~/binder/start.virtuoso 
+chmod +x ~/binder/start.vscode 
+
+# starting virtuoso
+~/binder/start.virtuoso   &
+
+# starting adminmongo in parallel
+~/binder/start.vscode   &
+
+
+# DO NOT REMOVE(!) 
+# Here is why: https://mybinder.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"

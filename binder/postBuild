@@ -1,0 +1,92 @@
+#!/bin/bash
+
+###############################################################
+#          jupyter/jupyterlab extensions/kernels              #
+###############################################################
+
+
+# Beakerx installation 
+# echo "Beakerx install"
+# beakerx install
+# echo "Beakerx extensions install"
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build 
+# jupyter labextension install beakerx-jupyterlab --no-build 
+
+
+# Table of contents Jupyter Lab Extension
+echo "Table of contents Jupyter Lab extension install"
+# jupyter labextension install @jupyterlab/toc --no-build 
+
+# Jupyter/Jupyterlab extension for proxying internal applications
+# echo "Jupyter/Jupyterlab proxy extension install"
+# jupyter serverextension enable --py jupyter_server_proxy
+# jupyter labextension install jupyterlab-server-proxy
+
+
+# Building everything up
+echo "Building everything up (jupyter lab build)"
+# jupyter lab build 
+
+
+###############################################################
+#             moving to a local installation folder           #
+###############################################################
+
+mkdir ~/resources/local
+cd    ~/resources/local
+
+
+###############################################################
+#             virtuoso installation commands                   #
+###############################################################
+
+export VIRTUOSO_VERSION=7.2.5
+echo "export VIRTUOSO_VERSION=${VIRTUOSO_VERSION}" >> ~/.bashrc
+echo "export VIRTUOSO_VERSION=${VIRTUOSO_VERSION}" >> ~/.profile
+
+export VIRTUOSO_HOME=$(pwd)/virtuoso-${VIRTUOSO_VERSION}
+echo "export VIRTUOSO_HOME=${VIRTUOSO_HOME}"       >> ~/.bashrc
+echo "export VIRTUOSO_HOME=${VIRTUOSO_HOME}"       >> ~/.profile
+
+wget https://ufpr.dl.sourceforge.net/project/virtuoso/virtuoso/${VIRTUOSO_VERSION}/virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz -q          && \
+tar  -xvf virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz >/dev/null                                                && \
+rm   virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz                                                                && \
+mv   virtuoso-opensource virtuoso-${VIRTUOSO_VERSION}
+
+# adding bin and sbin to $path
+echo "export PATH=\$PATH:\$VIRTUOSO_HOME/bin"  >> ~/.bashrc
+echo "export PATH=\$PATH:\$VIRTUOSO_HOME/bin"  >> ~/.profile
+
+
+
+
+
+###############################################################
+#             vscode server installation                      #
+###############################################################
+
+cd    ~/resources/local
+
+export CODE_SERVER_VERSION=3.3.0
+echo "export CODE_SERVER_VERSION=${CODE_SERVER_VERSION}" >> ~/.bashrc
+echo "export CODE_SERVER_VERSION=${CODE_SERVER_VERSION}" >> ~/.profile
+
+export CODE_SERVER_HOME=$(pwd)/code-server-${CODE_SERVER_VERSION}
+echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.bashrc
+echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.profile
+
+# Download and install VSCode server
+# wget -q -O code-server.tar.gz https://github.com/cdr/code-server/releases/download/$CODE_SERVER_VERSION/code-server-$CODE_SERVER_VERSION-linux-x86_64.tar.gz                            
+wget -q -O code-server.tar.gz https://github.com/cdr/code-server/releases/download/v$CODE_SERVER_VERSION/code-server-$CODE_SERVER_VERSION-linux-amd64.tar.gz                            
+tar xzf code-server.tar.gz
+# mv code-server-${CODE_SERVER_VERSION}-linux-x86_64 code-server-$CODE_SERVER_VERSION
+mv code-server-$CODE_SERVER_VERSION-linux-amd64 code-server-$CODE_SERVER_VERSION
+
+rm -rf code-server.tar.gz
+
+# adding bin/ to $path
+echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.bashrc
+echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.profile
+
+source ~/.bashrc
+

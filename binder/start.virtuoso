@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+cd ${VIRTUOSO_HOME}/database
+
+mv virtuoso.ini.sample virtuoso.ini
+
+nohup   virtuoso-t  -fd &> ~/logs/virtuoso-$VIRTUOSO_version.log &
+
+
+
