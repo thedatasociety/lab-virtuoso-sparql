@@ -4,24 +4,24 @@
  <h3>The Data Science and Engineering Society </h3>
  <hr/>
  <a href="https://github.com/thedatasociety" target="_blank">
-   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso/master/resources/images/github-icon.png" width="30px" alt="github organization">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso-sparql/master/resources/images/github-icon.png" width="30px" alt="github organization">
  </a>
  <a href="https://hub.docker.com/search?q=thedatasociety&type=image"  target="_blank" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso/master/resources/images/docker-icon.png" width="30px" alt="our docker hub organization">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso-sparql/master/resources/images/docker-icon.png" width="30px" alt="our docker hub organization">
  </a>
  <a href="https://thedatasociety.slack.com" target="_blank" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso/master/resources/images/slack-icon.png" width="30px" alt="our slack">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso-sparql/master/resources/images/slack-icon.png" width="30px" alt="our slack">
  </a>
  <a href="https://twitter.com/thedatasociety" target="_blank">
-   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso-sparql/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
  </a>
  <a href="https://quiltdata.com/package/thedatasociety/" target="_blank">
-   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso/master/resources/images/quilt-icon.png" width="30px" alt="quilt packages">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-virtuoso-sparql/master/resources/images/quilt-icon.png" width="30px" alt="quilt packages">
  </a> 
 </div>
 <!-- /ds header -->
 
-# lab-virtuoso
+# lab-virtuoso-sparql
 
 A repository for launching laboratories.
 
@@ -63,42 +63,42 @@ The list below provides the badges and the hyperlinks for launching one of the s
 
 #### JupyterLab 
   
-  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=lab)
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=lab)
 
-  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=lab)
+  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=lab)
 
-  - [![launch @ turing.mybinder.org][badge-jupyterlab-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=lab)
+  - [![launch @ turing.mybinder.org][badge-jupyterlab-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=lab)
 
-  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=lab)
+  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=lab)
 
-  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=lab)
+  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=lab)
 
 
 #### Jupyter 
   
-  - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=tree)
+  - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=tree)
 
-  - [![launch @ ovh.mybinder.org][badge-jupyter-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=tree)
+  - [![launch @ ovh.mybinder.org][badge-jupyter-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=tree)
 
-  - [![launch @ turing.mybinder.org][badge-jupyter-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=tree)
+  - [![launch @ turing.mybinder.org][badge-jupyter-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=tree)
 
-  - [![launch @ gesis.org][badge-jupyter-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=tree)
+  - [![launch @ gesis.org][badge-jupyter-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=tree)
 
-  - [![launch @ pangeo.org][badge-jupyter-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=tree)
+  - [![launch @ pangeo.org][badge-jupyter-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=tree)
 
 
       
 #### VSCode 
   
-  - [![launch @ gke.mybinder.org][badge-vscode-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=vscode/)
+  - [![launch @ gke.mybinder.org][badge-vscode-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=vscode/)
 
-  - [![launch @ ovh.mybinder.org][badge-vscode-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=vscode/)
+  - [![launch @ ovh.mybinder.org][badge-vscode-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=vscode/)
 
-  - [![launch @ turing.mybinder.org][badge-vscode-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=vscode/)
+  - [![launch @ turing.mybinder.org][badge-vscode-turing-mybinder-org]](https://turing.mybinder.org/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=vscode/)
 
-  - [![launch @ gesis.org][badge-vscode-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=vscode/)
+  - [![launch @ gesis.org][badge-vscode-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=vscode/)
 
-  - [![launch @ pangeo.io][badge-vscode-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso/master?urlpath=vscode/)
+  - [![launch @ pangeo.io][badge-vscode-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-virtuoso-sparql/master?urlpath=vscode/)
 
 
 
@@ -110,10 +110,10 @@ Before firing up your container, make sure your local user is in the `docker` gr
 
 #### Via our Docker image
 
-You can run a containerized instance of this lab from [our own Docker image](https://hub.docker.com/r/thedatasociety/lab-virtuoso/). Please refer to this [link](https://docs.docker.com/install/) for installing Docker. Then, try:
+You can run a containerized instance of this lab from [our own Docker image](https://hub.docker.com/r/thedatasociety/lab-virtuoso-sparql/). Please refer to this [link](https://docs.docker.com/install/) for installing Docker. Then, try:
   
 ```bash
-docker run -it -p 8888:8888 thedatasociety/lab-virtuoso \
+docker run -it -p 8888:8888 thedatasociety/lab-virtuoso-sparql \
            jupyter lab --ip 0.0.0.0 --NotebookApp.token='dstoken1234567' 
 ```
 
@@ -122,11 +122,11 @@ Alternatively, you can map you local home folder into the container:
 ```bash
 docker run -it -p 8888:8888  \
            -v $(echo ~):/jupyter/data/local-home \
-           thedatasociety/lab-virtuoso \
+           thedatasociety/lab-virtuoso-sparql \
            jupyter lab --ip 0.0.0.0 --NotebookApp.token='dstoken1234567'
 ```
 
-The *Dockerfile* used to build the image can be found [here](https://github.com/thedatasociety/lab-virtuoso/tree/master/resources/docker/).
+The *Dockerfile* used to build the image can be found [here](https://github.com/thedatasociety/lab-virtuoso-sparql/tree/master/resources/docker/).
 
 **Please read the section** [Accessing your Docker container](#accessing-your-docker-container) for more details about running/accessing your container.
 
@@ -139,7 +139,7 @@ You can also launch this laboratory locally using [Docker](https://docker.com) a
 ```bash
 repo2docker -p 8888:8888 \
             -v $(echo ~):$(echo ~)/local-home \
-            https://github.com/thedatasociety/lab-virtuoso \
+            https://github.com/thedatasociety/lab-virtuoso-sparql \
             jupyter lab --ip 0.0.0.0 --NotebookApp.token='dstoken1234567'
 
 ```
